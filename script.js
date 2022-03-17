@@ -4,7 +4,6 @@ const colores = ["#ff6961","#77dd77","#fdfd96","#84b6f4","#fdcae1",
 
 for (let index = 0; index < boton.length; index++) {
     const element = boton[index];
-    const element1 = container[index]
     element.addEventListener("click", cambiarFondo);
 }
 
